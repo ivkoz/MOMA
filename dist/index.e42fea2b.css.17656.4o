@@ -1,0 +1,33 @@
+footer {
+  color: #fff;
+  background-color: #444;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+footer .container .footer-row a {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer .container .footer-row a li {
+  display: inline;
+}
+
+footer .container .footer-row a:last-child {
+  margin-left: 100%;
+}
+
+footer .container .footer-second-row .footer-second-item span {
+  display: block;
+}
+
+footer .container .footer-second-row .footer-second-item .social .facebook-logo {
+  background-color: #fff;
+  -webkit-mask: url("facebook.18d3d103.svg") center no-repeat;
+  mask: url("facebook.18d3d103.svg") center no-repeat;
+}
+
+/*# sourceMappingURL=index.e42fea2b.css.map */

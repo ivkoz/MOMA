@@ -1,0 +1,70 @@
+footer {
+  color: #fff;
+  background-color: #444;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  font-size: 20px;
+}
+
+footer .container .footer-row a {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer .container .footer-row a li {
+  display: inline;
+}
+
+footer .container .footer-row a:last-child {
+  float: right;
+}
+
+footer .container .footer-second-row {
+  justify-content: space-between;
+  display: flex;
+}
+
+footer .container .footer-second-row .footer-second-item span {
+  display: block;
+}
+
+footer .container .footer-second-row .footer-second-item .social {
+  margin-top: 10px;
+  display: flex;
+}
+
+footer .container .footer-second-row .footer-second-item .social .facebook {
+  -webkit-mask: url("facebook.18d3d103.svg") center no-repeat;
+  mask: url("facebook.18d3d103.svg") center no-repeat;
+}
+
+footer .container .footer-second-row .footer-second-item .social .twitter {
+  -webkit-mask: url("twitter.58c7102a.svg") center no-repeat;
+  mask: url("twitter.58c7102a.svg") center no-repeat;
+}
+
+footer .container .footer-second-row .footer-second-item .social .instagram {
+  -webkit-mask: url("instagram.7f22de78.svg") center no-repeat;
+  mask: url("instagram.7f22de78.svg") center no-repeat;
+}
+
+footer .container .footer-second-row .footer-second-item .social .youtube {
+  -webkit-mask: url("youtube.b31d8744.svg") center no-repeat;
+  mask: url("youtube.b31d8744.svg") center no-repeat;
+}
+
+footer .container .footer-second-row .footer-second-item .social .spotify {
+  -webkit-mask: url("spotify.9e97172b.svg") center no-repeat;
+  mask: url("spotify.9e97172b.svg") center no-repeat;
+}
+
+footer .container .footer-second-row .footer-second-item .social .logo {
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+}
+
+/*# sourceMappingURL=index.e42fea2b.css.map */

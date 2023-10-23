@@ -1,0 +1,68 @@
+$grey: #444;
+$orange: #ff8f1c;
+$turquoise: #6bdcc5;
+$powder: #ffb3ab;
+$yellow: #fac300;
+$blue: #5e96ff;
+$light-grey: #eeeeee;
+$black: #000;
+$white: #fff;
+
+footer{
+    color: $white;
+    background-color: $grey;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    font-size: 20px;
+    .container{
+        .footer-row{
+            a{
+                text-decoration: none;
+                color: $white;
+                margin-right: 20px;
+                font-size: 20px;
+                li{
+                    display: inline;
+                }
+            }
+            a:last-child{
+                float: right;
+            }
+        }
+
+        .footer-second-row{
+            display: flex;
+            justify-content: space-between;
+            .footer-second-item{
+                span{
+                    display: block;
+                }
+                .social{
+                    display: flex;
+                    margin-top: 10px;
+                    .facebook{
+                        mask: url(../img/social/facebook.svg) no-repeat center;
+                    }
+                    .twitter{
+                        mask: url(../img/social/twitter.svg) no-repeat center;
+                    }
+                    .instagram{
+                        mask: url(../img/social/instagram.svg) no-repeat center;
+                    }
+                    .youtube{
+                        mask: url(../img/social/youtube.svg) no-repeat center;
+                    }
+                    .spotify{
+                        mask: url(../img/social/spotify.svg) no-repeat center;
+                    }
+                    .logo{
+                        width: 20px;
+                        height: 20px;
+                        background-color: $white;
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
