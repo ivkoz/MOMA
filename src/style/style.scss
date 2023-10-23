@@ -1,0 +1,71 @@
+$grey: #444;
+$orange: #ff8f1c;
+$turquoise: #6bdcc5;
+$powder: #ffb3ab;
+$yellow: #fac300;
+$blue: #5e96ff;
+$light-grey: #eeeeee;
+$black: #000;
+
+/* Обычный */
+@font-face {
+	font-family: 'Moma Regulas'; 
+	src: url(../fonts/MoMASansWebBoldRegular.ttf); 
+}
+
+@font-face {
+	font-family: 'Moma Medium'; 
+	src: url(../fonts/MoMASansWebMediumRegular.ttf); 
+}
+
+body{
+    font-family: 'Moma Regulas';
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    display: flex;
+    max-width: 100%;
+}
+
+.balance-text-left{
+    font-family: 'Moma Medium';
+    margin-left: auto; 
+    margin-right: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 50px;
+    h1{
+        font-size: 45px;
+    }
+    span{
+        margin-bottom: 30px;
+    }
+}
+
+.balance-text-right{
+    font-family: 'Moma Medium';
+    margin-left: 0  ; 
+    margin-right: auto;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+    h1{
+        font-size: 45px;
+    }
+    span{
+        margin-bottom: 30px;
+    }
+}

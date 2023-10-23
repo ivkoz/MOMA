@@ -1,0 +1,44 @@
+$blue: #5e96ff;
+$black: #000;
+
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.logotype-text{
+    font-size: 70px;
+    margin: 0;
+}
+
+.nav-right{
+    a{
+        font-size: 18px;
+        color: $blue;
+        text-decoration: none;
+    }
+    a:not(:last-child){
+        margin-right: 10px;
+    }
+}
+
+.second-row{
+    display: flex;
+    a{
+        font-size: 18px;
+        color: $black;
+        text-decoration: none;
+    }
+    a:not(:last-child){
+        margin-right: 20px;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.header-nav{
+    margin-bottom: 40px;
+}

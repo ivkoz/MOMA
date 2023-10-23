@@ -1,0 +1,328 @@
+$grey: #444;
+$orange: #ff8f1c;
+$turquoise: #6bdcc5;
+$powder: #ffb3ab;
+$yellow: #fac300;
+$blue: #5e96ff;
+$light-grey: #eeeeee;
+$black: #000;
+
+
+.right-box{
+    width: 100%;
+    :nth-child(2n){
+        width: 60%;
+    }    
+}
+
+.left-box{
+    width: 60%;
+    height: 400px;
+    background-color: $orange;
+    
+}
+
+
+.right-box__img-block{
+    background: url('../img/edrusha.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 400px;
+}
+
+.left-box__second{
+    width: 60%;
+    height: 400px;
+    background-color: #ff8f1c;
+}
+
+.left-box__img-block{
+    background: url('../img/pic.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 400px;
+}
+
+.right-box__second{
+    background-color: $turquoise;
+    width: 45%;
+}
+
+.powder-back{
+    background-color: $powder;  
+}
+
+
+.img-block{
+    background: url('../img/ruschafield.jpg');
+}
+
+.img-block__four{
+    background: url('../img/plaster.jpg');
+    height: 400px;
+}
+
+.left-box__four{
+    width: 60%;
+}
+
+.right-box__four{
+    width: 45%;
+    background: $yellow;
+}
+
+.left-box__five{
+    background-color: $blue;
+}
+
+.img-block__five{
+    background: url('../img/materials.jpg');
+}
+
+.img-block__six{
+    background: url('../img/cccr.jpg');
+}
+
+.right-box__six{
+    background-color: $light-grey;
+    .right-box{
+        h1{
+            line-height: 10px;
+        }
+    }
+}
+
+.left-box__seven{
+    background: $black;
+    color: #fff;
+}
+
+.img-block__seven{
+    background: url('../img/aerial.jpg');
+}
+
+.section__links{
+    padding-top: 64px;
+}
+
+.link-items{
+    display: flex;
+    font-size: 21px;
+    justify-content: space-between;
+    .link-item{
+        width: 590px;
+    }
+    .link-item__footer-link{
+        margin-top: 32px;
+        a{
+            text-decoration: none;
+            color: $black;
+            
+        }
+        img{
+            width: 18px;
+            height: 18px;
+        } 
+    }
+}
+
+.section-feedback{
+    .container{
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+.feedback-items{
+    max-width: 1180px;
+    height: 120px;
+    border: 3px solid $black;
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+    span{
+        font-size: 21px;
+        width: 430px;
+    }
+    input{
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 3px solid $black;
+        font-size: 21px;
+        color: $black;
+        padding-bottom: 10px;
+        font-family: 'Moma Medium';
+        width: 430px;
+    }
+    input::placeholder{
+        color: $black;
+    }
+}
+
+.input-field {  
+    background:url("../img/email.png"); 
+    width: 20px;
+    height: 20px;
+}
+
+.magazine{
+    .container{
+        h1{
+            font-size: 40px;
+        }
+    }
+}
+
+.magazine-items{
+    display: flex;
+    .magazine-items__img{
+        background: url('../img/Jacob_Samuel_still-4.jpg');
+        width: 568px;
+        height: 378px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+    .magazine-items__text{
+        margin-left: 40px;
+        span{
+            display: block;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+        }
+        .magazine-name{
+            margin-top: 20px;
+            font-weight: 400;
+        }
+
+        .magazine-date{
+            color: #5c5c5c8a;
+        }
+    }
+}
+
+.carousel{
+    max-width: 30%;
+    position: relative;
+    height: auto;
+    img {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        transition: 0.3s opacity ease-in-out;
+    }
+}
+
+.collection-first-row{
+    height: 700px;
+}
+
+.collection-footer__link{
+    a{
+        color: #000;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.collection{
+    .collection-first-row{
+        h1{
+            font-size: 40px;
+            margin-top: 100px;
+        }
+    }
+}
+
+
+.discover{
+    margin-top: 100px;
+    .container{
+        .discover-items{
+            padding: 48px;
+            background: $orange;
+            width: 100%;
+            height: 340px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            h1{
+                font-size: 54px;
+            }
+        }
+        .discover-link{
+            display: flex;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: $black;
+                font-size: 40px;
+            }
+            img{
+                width: 32px;
+                height: 32px;
+            }
+        }
+        .discover-img{
+            background: url('../img/membership-promo--whats-ahead.gif');
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
+
+.store{
+    .container{
+        h1{
+            font-size: 40px;
+            margin-top: 100px;
+        }
+        .store-items{
+            display: flex;
+
+            .store-item{
+                width: 100%;
+                :not(:last-child){
+                    margin-right: 20px;
+                }
+                .store-left-img{
+                    background: url('../img/table1.jpg');
+                    width: 100%;
+                    height: 380px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                    background-attachment: scroll;
+                }
+                .store-right-img{
+                    background: url('../img/table2.jpg');
+                    width: 100%;
+                    height: 380px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                    background-attachment: scroll;
+                }
+            }
+            .store-item:not(:last-child){
+                margin-right: 20px;
+            }
+        }
+    }
+}
