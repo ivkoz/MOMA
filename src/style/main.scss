@@ -350,3 +350,157 @@ $black: #000;
         }
     }
 }
+
+.link-item{
+    margin-top: 200px;
+}
+
+@media (max-width:900px) {
+    .right-box__text{
+        h1{
+            font-size: 32px;
+        }
+    }
+    .container-fluid{
+        height: 300px;
+        .left-box{
+            .left-box__text{
+                h1{
+                    font-size: 32px;
+                }
+            }
+            .balance-text-left{
+                height: 70%;
+            }
+        }
+        .right-box__second-row{
+            .right-box__text{
+                h1{ 
+                    font-size: 32px;
+                }
+            }
+            .balance-text-right{
+                h1{
+                    font-size: 32px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:450px) {
+    header{
+        .container{
+            .header-nav{
+                .first-row{
+                    .logotype{
+                        .logotype-text{
+                            font-size: 64px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .magazine-items{
+        flex-direction: column;
+        .magazine-items__img{
+            width:360px;
+        }
+    }
+    .feedback-items{
+        span{
+            text-align: center;
+            width: 300px;
+        }
+    }
+    .section__links{
+        padding-top: 230px;
+    }
+    .nav-right{
+        display: flex;
+    }
+    .magazine-items__img{
+        flex-direction: column;
+        width: 300px;
+    }
+    .container{
+        padding-left: 10px;
+    }
+
+    .container-fluid{
+        height: 200px;
+    }
+
+    .feedback-items{
+        flex-direction: column;
+        input{
+            width: 270px;
+        }
+    }
+    .balance-text-right{
+        width: 130px;
+    }
+
+    .container-fluid{
+        .left-box{
+            .balance-text-left{
+                height: 50%;
+                padding-left: 20px;
+                padding-top: 10px;
+            }
+            .left-box__text{
+                h1{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .right-box__text{
+        h1{
+            font-size: 15px;
+        }
+    }
+    .footer{
+        .container{
+            .footer-three-row{
+                input{
+                    width: 270px;
+                } 
+            }
+        }
+    }
+
+
+    .discover{
+        .container{
+            .discover-items{
+                display: flex;
+                flex-direction: column;
+                .discover-text{
+                    h1{
+                        font-size: 32px;
+                    }
+                    .discover-link{
+                        a{
+                            font-size: 28px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    .container{
+        .footer-three-row{
+            input{
+                width: 380px;
+                display: none;
+            } 
+        }
+    }
+}

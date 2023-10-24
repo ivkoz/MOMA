@@ -6,6 +6,30 @@ footer {
   font-size: 20px;
 }
 
+footer .container .footer-three-row {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+footer .container .footer-three-row input {
+  color: #fff;
+  background: #444;
+  border: 0;
+  border-bottom: 3px solid #fff;
+  width: 430px;
+  padding-bottom: 10px;
+  font-family: Moma Medium;
+  font-size: 21px;
+}
+
+footer .container .footer-three-row input::placeholder {
+  color: #fff;
+}
+
+footer .container .footer-row ul {
+  padding: 0;
+}
+
 footer .container .footer-row a {
   color: #fff;
   margin-right: 20px;
@@ -65,6 +89,37 @@ footer .container .footer-second-row .footer-second-item .social .logo {
   width: 20px;
   height: 20px;
   margin-right: 30px;
+}
+
+footer .container .footer-four-row .four-row-items .footer-text {
+  flex-direction: column;
+  display: flex;
+}
+
+footer .container .footer-four-row .four-row-items .footer-text .footer-links ul {
+  padding: 0;
+  display: flex;
+}
+
+footer .container .footer-four-row .four-row-items .footer-text .footer-links ul li {
+  margin-right: 20px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+footer .container .footer-four-row .four-row-items .footer-text .footer-text .span-copyright span {
+  color: gray;
+}
+
+@media (width <= 375px) {
+  footer .container .footer-three-row input {
+    width: 390px;
+    display: none;
+  }
+
+  .footer-three-row input {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=index.e42fea2b.css.map */

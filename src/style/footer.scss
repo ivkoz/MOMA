@@ -15,7 +15,29 @@ footer{
     padding-bottom: 96px;
     font-size: 20px;
     .container{
+        .footer-three-row{
+            margin-top: 80px;
+            margin-bottom: 80px;
+            input{
+                border-top: 0;
+                border-left: 0;
+                border-right: 0;
+                border-bottom: 3px solid $white;
+                font-size: 21px;
+                color: $white;
+                padding-bottom: 10px;
+                font-family: 'Moma Medium';
+                width: 430px;
+                background:$grey;
+            }
+            input::placeholder{
+                color: $white;
+            }
+        }
         .footer-row{
+            ul{
+                padding: 0;
+            }
             a{
                 text-decoration: none;
                 color: $white;
@@ -64,5 +86,51 @@ footer{
                 }
             }
         }
+        .footer-four-row{
+            .four-row-items{
+                .footer-text{
+                    display: flex;
+                    flex-direction: column;
+                    .footer-links{
+                        ul{
+                            padding: 0;
+                            display: flex;
+                            li{
+                                text-decoration: none;
+                                list-style-type: none;
+                                margin-right: 20px;
+                            }
+                        }
+                        
+                    }
+                    .footer-text{
+                        .span-copyright{
+                            span{
+                                color: #808080;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
+
+@media (max-width:375px) {
+    footer{
+        .container{
+            .footer-three-row{
+                input{
+                    width: 390px;
+                    display: none;
+                } 
+            }
+        }
+    }
+    .footer-three-row{
+        input{
+            display: none;
+        }
+    }
+}
+
